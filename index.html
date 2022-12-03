@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BLOG</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- script to make the image slightly smaller when mouse hovers over it -->
+  <script>
+    function bigImg(x) {
+      x.style.height = "90%";
+      x.style.width = "90%";
+    }
+    
+    function normalImg(x) {
+      x.style.height = "100%";
+      x.style.width = "100%";
+    }
+    </script>
+</head>
+<body style="background-color: #cdb1b6 ;" >
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="/LandingPage/index.html"> 
+            <p onmouseover="style.color='purple'" onmouseout="style.color='pink'">Home</p>
+            </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="https://sxnyya.github.io/AboutMe/"> <p onmouseover="style.color='purple'" onmouseout="style.color='pink'">About Me</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="https://sxnyya.github.io/Projects/"> <p onmouseover="style.color='purple'" onmouseout="style.color='pink'">Projects</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="https://sxnyya.github.io/Games/"> <p onmouseover="style.color='purple'" onmouseout="style.color='pink'">Games</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="https://sxnyya.github.io/SignUp/"> <p onmouseover="style.color='purple'" onmouseout="style.color='pink'">Sign-up</p></a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+<div style="background-color: rgb(218, 141, 173);" class="container-fluid p-2 text-white text-center">
+  <h1 onmouseover="style.color='purple'" onmouseout="style.color='pink'" >My Blog</h1>
+  <p>trying to capture the essence of words</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+       
+      <h3> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="Screenshot 2022-10-01 at 8.49.26 PM.png" width="100%" alt=""></h3>
+     
+    
+    </div>
+    <div class="col-sm-4">
+      <h3> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="Screenshot 2022-10-01 at 8.49.35 PM.png" width="100%" alt=""> </h3>
+      <p>Hop onto my  <a href="https://www.instagram.com/beyond.your.souls/"> <button style="background-color: pink;"> instagram</button></a>
+        to check out the entire writeups!</p>
+
+
+    </div>
+    <div class="col-sm-4">
+      <h3><img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="Screenshot 2022-10-01 at 8.49.48 PM.png" width="100%" alt=""></h3>        
+
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
